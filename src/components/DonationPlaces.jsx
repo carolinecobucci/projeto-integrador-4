@@ -16,6 +16,8 @@ const DonationPlaces = () => {
       <h1 className="text-xl mb-4 font-semibold">Faça sua doação aqui:</h1>
       <div>
         <Places />
+        <Places />
+        <Places />
       </div>
       <img src={DonationImage2} alt="donation image 2" className="w-52 mt-7" />
     </div>

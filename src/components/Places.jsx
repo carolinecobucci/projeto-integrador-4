@@ -1,6 +1,6 @@
 const Places = () => {
   return (
-    <div>
+    <div className="mb-3 mt-5">
       <h1>Local de doação</h1>
       <p>Endereço: Rua tal número tal</p>
       <p className="mb-3">Cidade: Tal</p>
