@@ -1,4 +1,3 @@
-import { IoMdSearch } from "react-icons/io";
 import DonationImage from "../assets/donation-1.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -25,12 +24,20 @@ const Home = () => {
       </h2>
       <img src={DonationImage} alt="donation image" className="w-52 mb-6" />
       <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center relative">
-        <input
-          type="text"
-          placeholder="Digite sua cidade"
-          className="pl-7 py-1 border rounded-md mb-5"
-        />
-        <IoMdSearch className="absolute left-2 top-2 text-gray-500" />
+        <select
+          id="cidades"
+          name="cidades"
+          className="pl-3 py-2 pr-3 border rounded-md mb-5 text-gray-500"
+        >
+          <option value="" disabled selected>
+            Escolha uma cidade
+          </option>
+          <option value="Belo Horizonte">Belo Horizonte</option>
+          <option value="Curitiba">Curitiba</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Salvador">Salvador</option>
+          <option value="São Paulo">São Paulo</option>
+        </select>
         <button
           type="submit"
           className="border-[#FFC98B] bg-[#FFC98B] hover:bg-[#FFB865] px-4 py-2 rounded-full text-xs"
