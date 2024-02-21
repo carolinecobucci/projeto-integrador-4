@@ -1,8 +1,14 @@
 import DonationImage from "../assets/donation-1.jpg";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Home = () => {
   const navigate = useNavigate();
+  const [cidadeSelecionada, setCidadeSelecionada] = useState("");
+
+  const handleCidadeChange = (event) => {
+    setCidadeSelecionada(event.target.value);
+  };
 
   const handleSearch = () => {
     navigate("/donation-places");
@@ -12,7 +18,7 @@ const Home = () => {
     e.preventDefault();
 
     // código para buscar no json server as cidades
-
+    // usar cidadeSelecionada na chamada da API
     handleSearch();
   };
 
@@ -28,6 +34,7 @@ const Home = () => {
           id="cidades"
           name="cidades"
           className="pl-3 py-2 pr-3 border rounded-md mb-5 text-gray-500"
+          onChange={handleCidadeChange}
         >
           <option value="" disabled selected>
             Escolha uma cidade
