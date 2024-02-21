@@ -9,10 +9,13 @@ const Home = () => {
     navigate("/donation-places");
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // código para buscar no json server as cidades
+    const response = await fetch(`https://localhost:3001/instituicoes/${city}`);
+    if (response.ok) {
+      const data = await response.json()
+    };
 
     handleSearch();
   };
@@ -23,8 +26,15 @@ const Home = () => {
       <h2 className="border-[#FFC98B] bg-[#FFC98B] rounded-md px-2 py-1 text-xs mb-2">
         APLICATIVO SOLIDÁRIO
       </h2>
-      <img src={DonationImage} alt="donation image" className="w-52 mb-6" />
-      <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center relative">
+      <img
+        src={DonationImage}
+        alt="donation image"
+        className="w-52 mb-6"
+      />
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col justify-center items-center relative"
+      >
         <input
           type="text"
           placeholder="Digite sua cidade"
