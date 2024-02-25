@@ -1,12 +1,14 @@
 import DonationImage from "../assets/donation-1.jpg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import axios from "axios";
+import Places from "./Places";
 
 const Home = () => {
   const navigate = useNavigate();
   const [cidadeSelecionada, setCidadeSelecionada] = useState("");
 
-  const handleCidadeChange = (event) => {
+    const handleCidadeChange = (event) => {
     setCidadeSelecionada(event.target.value);
   };
 
@@ -14,11 +16,15 @@ const Home = () => {
     navigate("/donation-places");
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // código para buscar no json server as cidades
-    // usar cidadeSelecionada na chamada da API
+    try {
+      const response = await axios.get(`http://localhost:3000/locations?city=${cidadeSelecionada}`);
+      const data = response.data
+      console.log(data)
+    } catch (error) {
+      console.log(error)
+    };
     handleSearch();
   };
 
