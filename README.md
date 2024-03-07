@@ -6,6 +6,12 @@ Este é o repositório oficial do DoeAqui, um aplicativo solidário projetado pa
 
 O DoeAqui é uma iniciativa destinada a simplificar e promover a solidariedade através da conexão entre doadores e instituições beneficentes. Com o aumento da pobreza e da vulnerabilidade social, especialmente durante a pandemia de Covid-19, o aplicativo visa oferecer uma plataforma intuitiva e eficiente para ajudar aqueles que mais precisam.
 
+# Como iniciar
+
+-clonar o repositório
+-iniciar o json-server: abrir o terminal na raiz do projeto e passar o comando json-server --watch locations.json
+depois de inicializado json server abrir um novo terminal e iniciar o projeto com npm run dev
+
 # Protótipo
 
 Abaixo estão as imagens do protótipo do aplicativo DoeAqui:
