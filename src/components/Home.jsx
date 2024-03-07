@@ -2,7 +2,8 @@ import DonationImage from "../assets/donation-1.jpg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
-import Places from "./Places";
+
+export const dadoCidades = [];
 
 const Home = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Home = () => {
     try {
       const response = await axios.get(`http://localhost:3000/locations?city=${cidadeSelecionada}`);
       const data = response.data
-      console.log(data)
+      dadoCidades.push(data)
     } catch (error) {
       console.log(error)
     };
