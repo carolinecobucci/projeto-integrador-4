@@ -1,172 +1,130 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "name": "Casa da Caridade",
-            "address": "Rua das Flores, 123",
-            "city": "São Paulo",
-            "siteURL": "http://www.casadacaridade.com"
-        },
-        {
-            "id": 2,
-            "name": "Abrigo Amor Fraterno",
-            "address": "Avenida Central, 456",
-            "city": "São Paulo",
-            "siteURL": "http://www.amorfraterno.org"
-        },
-        {
-            "id": 3,
-            "name": "Casa da Esperança",
-            "address": "Rua da Paz, 789",
-            "city": "São Paulo",
-            "siteURL": "http://www.casadaesperanca.org"
-        },
-        {
-            "id": 4,
-            "name": "Centro de Assistência Social Vida Nova",
-            "address": "Rua da Solidariedade, 321",
-            "city": "São Paulo",
-            "siteURL": "http://www.vidanova.org"
-        },
-        {
-            "id": 5,
-            "name": "Casa da Acolhida",
-            "address": "Avenida da Caridade, 987",
-            "city": "Rio de Janeiro",
-            "siteURL": "http://www.casadaacolhida.com"
-        },
-        {
-            "id": 6,
-            "name": "Lar dos Amigos",
-            "address": "Rua da Fraternidade, 654",
-            "city": "Rio de Janeiro",
-            "siteURL": "http://www.lardosamigos.org"
-        },
-        {
-            "id": 7,
-            "name": "Casa do Bem",
-            "address": "Avenida da Solidariedade, 789",
-            "city": "Rio de Janeiro",
-            "siteURL": "http://www.casadobem.org"
-        },
-        {
-            "id": 8,
-            "name": "Centro de Auxílio Fraternal",
-            "address": "Rua da Generosidade, 321",
-            "city": "Rio de Janeiro",
-            "siteURL": "http://www.auxiliofraternal.org"
-        },
-        {
-            "id": 9,
-            "name": "Centro de Assistência Social Esperança",
-            "address": "Rua da Caridade, 123",
-            "city": "Belo Horizonte",
-            "siteURL": "http://www.esperanca.org"
-        },
-        {
-            "id": 10,
-            "name": "Lar da Solidariedade",
-            "address": "Avenida da Fraternidade, 456",
-            "city": "Belo Horizonte",
-            "siteURL": "http://www.lardasolidariedade.com"
-        },
-        {
-            "id": 11,
-            "name": "Casa da Solidariedade",
-            "address": "Rua da Fraternidade, 123",
-            "city": "Curitiba",
-            "siteURL": "http://www.casadasolidariedade.com"
-        },
-        {
-            "id": 12,
-            "name": "Abrigo Fraternal",
-            "address": "Avenida da Generosidade, 456",
-            "city": "Curitiba",
-            "siteURL": "http://www.abrigofraternal.org"
-        },
-        {
-            "id": 13,
-            "name": "Centro de Apoio Humanitário",
-            "address": "Rua da Caridade, 789",
-            "city": "Curitiba",
-            "siteURL": "http://www.apoiohumanitario.org"
-        },
-        {
-            "id": 14,
-            "name": "Casa do Amor",
-            "address": "Avenida da Esperança, 321",
-            "city": "Curitiba",
-            "siteURL": "http://www.casadoamor.com"
-        },
-        {
-            "id": 15,
-            "name": "Lar da Caridade",
-            "address": "Rua da Paz, 987",
-            "city": "Curitiba",
-            "siteURL": "http://www.lardacaridade.org"
-        },
-        {
-            "id": 16,
-            "name": "Casa da Fraternidade",
-            "address": "Avenida da Solidariedade, 654",
-            "city": "Curitiba",
-            "siteURL": "http://www.casadafaternidade.com"
-        },
-        {
-            "id": 17,
-            "name": "Centro de Acolhimento",
-            "address": "Rua da Esperança, 789",
-            "city": "Curitiba",
-            "siteURL": "http://www.centroacolhimento.org"
-        },
-        {
-            "id": 18,
-            "name": "Abrigo da Paz",
-            "address": "Avenida da Fraternidade, 321",
-            "city": "Curitiba",
-            "siteURL": "http://www.abrigodapaz.com"
-        },
-        {
-            "id": 19,
-            "name": "Casa do Bem-Estar",
-            "address": "Rua da Caridade, 654",
-            "city": "Curitiba",
-            "siteURL": "http://www.casabemestar.org"
-        },
-        {
-            "id": 20,
-            "name": "Centro de Assistência Fraternal",
-            "address": "Avenida da Solidariedade, 987",
-            "city": "Curitiba",
-            "siteURL": "http://www.assistenciafraternal.org"
-        },
-        {
-            "id": 21,
-            "name": "Casa da Solidariedade",
-            "address": "Rua da Caridade, 123",
-            "city": "Salvador",
-            "siteURL": "http://www.casadasolidariedade.com"
-        },
-        {
-            "id": 22,
-            "name": "Abrigo Fraternal",
-            "address": "Avenida da Generosidade, 456",
-            "city": "Salvador",
-            "siteURL": "http://www.abrigofraternal.org"
-        },
-        {
-            "id": 23,
-            "name": "Centro de Apoio Humanitário",
-            "address": "Rua da Caridade, 789",
-            "city": "Salvador",
-            "siteURL": "http://www.apoiohumanitario.org"
-        },
-        {
-            "id": 24,
-            "name": "Casa do Amor",
-            "address": "Avenida da Esperança, 321",
-            "city": "Salvador",
-            "siteURL": "http://www.casadoamor.com"
-        }
-    ]
+  "locations": [
+    {
+      "id": "1",
+      "name": "Casa da Caridade",
+      "address": "Rua das Flores, 123",
+      "city": "São Paulo",
+      "siteURL": "http://www.casadacaridade.com"
+    },
+    {
+      "id": "2",
+      "name": "Abrigo Amor Fraterno",
+      "address": "Avenida Central, 456",
+      "city": "São Paulo",
+      "siteURL": "http://www.amorfraterno.org"
+    },
+    {
+      "id": "3",
+      "name": "Casa da Esperança",
+      "address": "Rua da Paz, 789",
+      "city": "São Paulo",
+      "siteURL": "http://www.casadaesperanca.org"
+    },
+    {
+      "id": "4",
+      "name": "Centro de Assistência Social Vida Nova",
+      "address": "Rua da Solidariedade, 321",
+      "city": "São Paulo",
+      "siteURL": "http://www.vidanova.org"
+    },
+    {
+      "id": "5",
+      "name": "Casa da Acolhida",
+      "address": "Avenida da Caridade, 987",
+      "city": "Rio de Janeiro",
+      "siteURL": "http://www.casadaacolhida.com"
+    },
+    {
+      "id": "6",
+      "name": "Lar dos Amigos",
+      "address": "Rua da Fraternidade, 654",
+      "city": "Rio de Janeiro",
+      "siteURL": "http://www.lardosamigos.org"
+    },
+    {
+      "id": "7",
+      "name": "Casa do Bem",
+      "address": "Avenida da Solidariedade, 789",
+      "city": "Rio de Janeiro",
+      "siteURL": "http://www.casadobem.org"
+    },
+    {
+      "id": "8",
+      "name": "Centro de Auxílio Fraternal",
+      "address": "Rua da Generosidade, 321",
+      "city": "Rio de Janeiro",
+      "siteURL": "http://www.auxiliofraternal.org"
+    },
+    {
+      "id": "9",
+      "name": "Centro de Assistência Social Esperança",
+      "address": "Rua da Caridade, 123",
+      "city": "Belo Horizonte",
+      "siteURL": "http://www.esperanca.org"
+    },
+    {
+      "id": "10",
+      "name": "Lar da Solidariedade",
+      "address": "Avenida da Fraternidade, 456",
+      "city": "Belo Horizonte",
+      "siteURL": "http://www.lardasolidariedade.com"
+    },
+    {
+      "id": "11",
+      "name": "Centro de Apoio Humanitário",
+      "address": "Rua da Caridade, 789",
+      "city": "Curitiba",
+      "siteURL": "http://www.apoiohumanitario.org"
+    },
+    {
+      "id": "12",
+      "name": "Casa do Amor",
+      "address": "Avenida da Esperança, 321",
+      "city": "Curitiba",
+      "siteURL": "http://www.casadoamor.com"
+    },
+    {
+      "id": "13",
+      "name": "Lar da Caridade",
+      "address": "Rua da Paz, 987",
+      "city": "Curitiba",
+      "siteURL": "http://www.lardacaridade.org"
+    },
+    {
+      "id": "14",
+      "name": "Casa da Fraternidade",
+      "address": "Avenida da Solidariedade, 654",
+      "city": "Curitiba",
+      "siteURL": "http://www.casadafaternidade.com"
+    },
+    {
+      "id": "15",
+      "name": "Casa da Solidariedade",
+      "address": "Rua da Caridade, 123",
+      "city": "Salvador",
+      "siteURL": "http://www.casadasolidariedade.com"
+    },
+    {
+      "id": "16",
+      "name": "Abrigo Fraternal",
+      "address": "Avenida da Generosidade, 456",
+      "city": "Salvador",
+      "siteURL": "http://www.abrigofraternal.org"
+    },
+    {
+      "id": "17",
+      "name": "Centro de Apoio Humanitário",
+      "address": "Rua da Caridade, 789",
+      "city": "Salvador",
+      "siteURL": "http://www.apoiohumanitario.org"
+    },
+    {
+      "id": "18",
+      "name": "Casa do Amor",
+      "address": "Avenida da Esperança, 321",
+      "city": "Salvador",
+      "siteURL": "http://www.casadoamor.com"
+    }
+  ]
 }

@@ -1,15 +1,22 @@
-const Places = () => {
+const Places = ({ dadoCidades }) => {
   return (
-    <div className="mb-3 mt-5">
-      <h1>Local de doação</h1>
-      <p>Endereço: Rua tal número tal</p>
-      <p className="mb-3">Cidade: Tal</p>
-      <a
-        href="#"
-        className="border-[#FFC98B] bg-[#FFC98B] hover:bg-[#FFB865] px-4 py-2 rounded-full text-xs"
-      >
-        MAIS INFORMAÇÕES
-      </a>
+    <div>
+      {dadoCidades.flat().map((cidade, index) => (
+        <div
+          key={index}
+          className="mb-3 mt-5"
+        >
+          <p> Local de doação: {cidade.name}</p>
+          <p> Endereço: {cidade.address}</p>
+          <p className="mb-3"> Cidade: {cidade.city}</p>
+          <a
+            href={cidade.siteURL}
+            className="border-[#FFC98B] bg-[#FFC98B] hover:bg-[#FFB865] px-4 py-2 rounded-full text-xs"
+          >
+            MAIS INFORMAÇÕES
+          </a>
+        </div>
+      ))}
     </div>
   );
 };
