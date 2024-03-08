@@ -3,13 +3,14 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const dadoCidades = [];
 
 const Home = () => {
   const navigate = useNavigate();
   const [cidadeSelecionada, setCidadeSelecionada] = useState("");
 
-    const handleCidadeChange = (event) => {
+  const handleCidadeChange = (event) => {
     setCidadeSelecionada(event.target.value);
   };
 
@@ -22,11 +23,11 @@ const Home = () => {
     dadoCidades.pop();
     try {
       const response = await axios.get(`http://localhost:3000/locations?city=${cidadeSelecionada}`);
-      const data = response.data
-      dadoCidades.push(data)
+      const data = response.data;
+      dadoCidades.push(data);
     } catch (error) {
-      console.log(error)
-    };
+      console.log(error);
+    }
     handleSearch();
   };
 
